@@ -1,0 +1,13 @@
+db_config:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: 12346
+  charset: utf8
+  # 需要进行处理的数据名称列表 《《 填入数据库名
+  db_names: []
+
+excel_conf:
+  # 导出结构Excel表头，长度及顺序不可调整，仅支持更换名称
+  column_name: ['字段名', '数据类型', '长度', '主键', '非空', '描述']
+  save_dir: ./data
